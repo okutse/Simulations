@@ -73,7 +73,7 @@ ipak(packages)
 ```
 
 ```{r echo=FALSE}
-bytes <- file.size("README.Rmd")
+bytes <- file.size("index.Rmd")
 words <- bytes/10
 minutes <- words/200
 ```

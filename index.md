@@ -54,7 +54,7 @@ link-citations: yes
 
 
 <center>
-**Reading Time: NA minute(s)**
+**Reading Time: 24 minute(s)**
 </center>
 <br>
 
@@ -1195,7 +1195,7 @@ ipak <- function(pkg){
 #install.packages('package_name', dependencies=TRUE, repos='http://cran.rstudio.com/')
 packages =c( "tidyverse","knitr", "kableExtra","skimr", "MatchIt", "RItools","optmatch", "ggplot2", "tufte", "tufterhandout", "plotly", "snowfall", "rstan", "gridExtra", "knitr", "gtsummary", "data.table", "GGally", "MASS", "broom")
 ipak(packages)
-bytes <- file.size("README.Rmd")
+bytes <- file.size("index.Rmd")
 words <- bytes/10
 minutes <- words/200
 # set the seed for reproducibility
