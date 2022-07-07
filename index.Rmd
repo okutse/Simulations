@@ -1,5 +1,5 @@
 ---
-title: "The Role of Covariate Adjustment in Enhancing Efficiency: A Simulation Approach"
+title: "The Role of Covariate Adjustment in Enhancing Efficiency: A Simulation Analysis"
 #subtitle: "Homework 1"
 author: "Amos Okutse"
 date: "  `r format(Sys.time(), '%d %B, %Y')` "
@@ -109,8 +109,8 @@ In these analyses, we generate a sample of $n = 500$ observations and simulate $
 \def\C{
 \begin{bmatrix}
 \sigma^2_e & \tau_1 & \tau_2 \\
-\tau_1 & \sigma^2_1 & \sigma^2_2 \\
-\tau_2 & \tau_1 & \sigma^2_2\\
+\tau_1 & \sigma^2_1 & 0 \\
+\tau_2 & 0 & \sigma^2_2\\
 \end{bmatrix}
 }
 
