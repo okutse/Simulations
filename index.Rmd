@@ -116,7 +116,7 @@ In these analyses, we generate a sample of $n = 500$ observations and simulate $
 
 \begin{equation}
 \label{eqn:datamatrix}
-\A ~\sim~ N\left( \B, \C \right) 
+\A ~\sim~ MVN\left( \B, \C \right) 
 \end{equation}
 
 The parameters of the outcome model are pre-specified as $\alpha=0, ~\beta=1, ~\sigma^2_e, ~\sigma^2_j=1$, and $\rho_j=\left(0, ~0.3, ~0.8\right)$. 
