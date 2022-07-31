@@ -156,7 +156,7 @@ E(Y|A, \textbf{X})=\alpha+\beta A + \theta_1 X_1 + \theta_2 X_2+ \theta_3 \frac{
 
 ```{r}
 # set the seed for reproducibility
-set.seed(1)
+set.seed(123456)
 ```
 
 ## Simulations
